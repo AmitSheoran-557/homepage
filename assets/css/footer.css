@@ -261,12 +261,90 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.search-img {
+    max-width: 545px !important;
+    min-height: 477px !important;
+}
 
-@media (max-width:992px) {
-    .box-btn {
-        max-width: 270px;
-    }
+.circle-img {
+    padding-left: 26px;
+    width: 74px !important;
+    height: 74px !important;
+}
 
+.sec_3_heading {
+    font-family: Roboto Slab;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 130%;
+    text-align: left;
+    color: #2A3739;
+    max-width: 389px !important;
+    padding-bottom: 20px;
+
+}
+
+.sec_3_para {
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 175%;
+    text-align: left;
+    max-width: 370px !important;
+    color: #4D4D4D;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.sec_3_py-72 {
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.sec_4_heading {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 131%;
+    text-align: left;
+    color: #2A3739;
+    padding-bottom: 20px;
+    max-width: 448px;
+
+}
+
+.sec_4_pera {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 175%;
+    text-align: left;
+    color: #4d4d4d;
+    padding-bottom: 12px;
+    max-width: 404px;
+
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.sec_4_img {
+
+    width: 100%;
+
+}
+
+.sec_4_pt_72 {
+    padding-top: 72px;
+}
+
+.sec_4_cross_img {
+    position: absolute;
+    right: 8%;
+    top: 50%;
 }
 
 :root {
@@ -361,6 +439,9 @@
              --fs-md: 16px;
              --fs-lg: 36px;
          }
+                 .box-btn {
+                     max-width: 270px;
+                 }
 }
 
 @media (max-width:768px) {
@@ -394,4 +475,29 @@
             --fs-sm: 12px;
             --fs-lg: 25px;
         }
+                .search-img {
+                    width: 100% !important;
+                }
+        
+                .sec_3_heading {
+                    font-size: 30px;
+        
+                }
+        
+                .sec_3_para {
+                    font-size: 12px;
+                    max-width: 370px !important;
+                }
+
+                                .m_sm_12 {
+                                    margin: 12px;
+                                }
+                
+                                .sec_4_heading {
+                                    font-size: 26px;
+                                }
+                
+                                .sec_4_pera {
+                                    font-size: 14px;
+                                }
 }
