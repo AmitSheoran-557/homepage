@@ -2,9 +2,6 @@
     --light-green: #7A9E9F;
     --dark-green: #4F6367;
 }
-:root{
-
-}
 
 .light-green {
     color: var(--light-green);
