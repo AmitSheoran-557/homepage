@@ -270,7 +270,7 @@
 
 .search-img {
     max-width: 545px !important;
-    min-height: 477px !important;
+   
 }
 
 .circle-img {
@@ -540,6 +540,10 @@
     .Time_line_Line {
         left: 12%;
     }
+        .sec_3_py-72 {
+            padding-top: 72px !important;
+            
+        }
 }
 
 @media (max-width:576px) {
