@@ -7,7 +7,7 @@
 
 .sec5-heading {
     font-family: "Roboto Slab", serif;
-    font-size: 45px;
+    font-size: 42px;
     font-weight: 900;
     line-height: 130%;
     text-align: left;
@@ -157,9 +157,9 @@
     min-height: 539px !important;
 }
 
-.background-img {
-    background-image: url(/assets/image/bg-img.png);
-    background-repeat: no-repeat;
+.background-color {
+         background-color: #E7FBFB !important;
+   
 }
 
 .bg-color {
@@ -339,9 +339,9 @@
 }
 
 .sec_4_img {
-
-    width: 100%;
-
+ width: 489px !important;
+ padding-bottom: 143px !important;
+ 
 }
 
 .sec_4_pt_72 {
@@ -544,6 +544,11 @@
             padding-top: 72px !important;
             
         }
+                .sec_4_img {
+                    width: 100% !important;
+                    padding-bottom: 50px !important;
+        
+                }
 }
 
 @media (max-width:576px) {
