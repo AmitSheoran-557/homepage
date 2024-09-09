@@ -46,7 +46,7 @@
 .sec-2-heading {
     color: #2A3739;
     margin-bottom: 60px;
-    line-height: 60px;
+    line-height: 100%;
 }
 
 .sec-2-card {
@@ -688,6 +688,13 @@
         --fs-sm: 12px;
         --fs-lg: 25px;
     }
+        .sec_3_py-72 {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+        .pt-sm-66{
+            padding-top: 66px !important;
+        }
 
     .search-img {
         width: 100% !important;
@@ -718,4 +725,12 @@
     .Time_line_Line {
         left: 19% !important;
     }
+        .faq-heading {
+           
+            padding-top: 75px !important;
+            padding-bottom: 29px !important;
+        }
+        .pb-sm-66{
+            padding-bottom: 66px !important;
+        }
 }
