@@ -310,7 +310,7 @@
 
 .sec_3_py-72 {
     padding-top: 72px;
-    padding-bottom: 72px;
+    padding-bottom: 0;
 }
 
 .sec_4_heading {
@@ -586,6 +586,10 @@
         padding-top: 45px;
         padding-bottom: 38px;
     }
+        .sec_3_py-72 {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
 
     :root {
         --fs-sm: 12px;
