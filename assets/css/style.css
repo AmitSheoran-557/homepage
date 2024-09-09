@@ -265,10 +265,13 @@
     max-width: 269px;
     padding-top: 29px;
 }
+.box{
+    max-width: 427px !important;
+    margin: auto;
+}
 
 .box-btn {
-    width: 365px;
-    height: 52px;
+    padding: 15px 85px;
     margin-bottom: 40px;
     transition: all 300ms linear;
 }
