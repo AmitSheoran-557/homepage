@@ -102,7 +102,7 @@ ul {
 .sec-2-heading {
     color: #2A3739;
     margin-bottom: 60px;
-    line-height: 130%;
+    line-height: 100%;
 }
 
 .sec-2-card {
@@ -126,9 +126,7 @@ ul {
 
 .sec-2-card-img {
     max-width: 183.94px;
-    min-width: 183.94px;
-    min-height: 192.97px;
-    max-height: 192.97px;
+   
     margin-bottom: 14px;
 }
 
@@ -731,6 +729,13 @@ ul {
     .sec5-col-img-w {
         max-width: 355px !important;
     }
+        .sec_3_py-72 {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+                .sec-2-card-img{
+                    max-width: 183px !important;
+                }
 
     .sec5-py {
         padding-top: 45px;
@@ -755,13 +760,22 @@ ul {
         font-size: 12px;
         max-width: 370px !important;
     }
-
+.faq-heading {
+    
+    padding-top: 75px !important;
+    padding-bottom: 29px !important;
+}
     .m_sm_12 {
         margin: 12px;
     }
-
+ .pb-sm-66{
+    padding-bottom: 66px !important;
+ }
     .sec_4_heading {
         font-size: 26px;
+    }
+    .pt-sm-65{
+        padding-top: 65px !important;
     }
 
     .sec_4_pera {
@@ -769,94 +783,6 @@ ul {
     }
 
     .Time_line_Line {
-        left: 22%;
-    }
-}
-
-@media (max-width:768px) {
-    .Time_line_Line {
-        left: 12%;
-    }
-
-    .sec_3_py-72 {
-        padding-top: 72px !important;
-
-    }
-
-    .sec_4_img {
-        width: 100% !important;
-        padding-bottom: 50px !important;
-
-    }
-
-}
-
-
-@media (min-width:992px) {
-    .arrow-img {
-        display: block;
-        right: 7px;
-        top: 106px;
-    }
-
-    .scroll-up-img {
-        right: 17px;
-        bottom: 0;
-        display: block;
-    }
-
-    .header {
-        padding-left: 150px;
-        padding-right: 150px;
-    }
-
-    .nav-btn {
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 14px;
-        padding-bottom: 14px;
-    }
-
-
-
-    .hero-img {
-        margin-top: 0;
-        display: flex !important;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .lg-max-w-715 {
-        max-width: 715px;
-    }
-
-    .arrow-img-2 {
-        display: none;
-    }
-
-
-}
-
-@media (min-width:1200px) {
-    .green {
-        border-radius: 0px 10px 10px 0;
-        max-width: 600px;
-        height: 100%;
-        z-index: -3;
-        top: 0;
-        left: 0;
-    }
-
-    .sec-1-img {
-        min-width: 715px !important;
-        width: 100%;
-        border-radius: 8px;
-    }
-
-}
-
-@media (min-width:1300px) {
-    .translate-x {
-        transform: translateX(-11%);
+        left: 19% !important;
     }
 }
