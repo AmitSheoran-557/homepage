@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.font-roboto {
+    font-family: "Roboto Slab", serif;
+}
+
+.nav-btn {
+    border: 2px solid #7A9E9F;
+    border-radius: 65px;
+}
+
+.nav-btn:hover {
+    background-color: var(--light-green);
+    color: white;
+}
+
+.cross {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.circle {
+    position: absolute;
+    left: 93%;
+    bottom: 10%;
+}
+
+.green {
+    border-radius: 0px 10px 10px 0;
+}
+
+.sec-1-img {
+    box-shadow: 13px 0px 50px 0px #0000000A;
+width: 100%;
+}
+
+.publish-btn {
+    width: 237px;
+    height: 54px;
+    padding: 10px;
+    border-radius: 65px;
+}
+
+/* ========================================== */
+.sec-2-heading {
+    color: #2A3739;
+}
+
+.sec-2-card {
+    border: 1px solid #D4D7D7;
+}
+
+.sec-2-card:hover {
+    background-color: var(--light-green);
+    color: white;
+}
+
+.sec-2-card-img {
+    max-width: 183.94px;
+    min-width: 183.94px;
+    min-height: 192.97px;
+    max-height: 192.97px;
+}
+/* ============================================================ */
+    .flex-nowrap{
+        flex-wrap: nowrap !important;
+    }
