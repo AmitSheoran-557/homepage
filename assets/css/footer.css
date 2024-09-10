@@ -84,7 +84,7 @@
 }
 
 .Time_line_bg_images {
-    background-image: url(/assets/images/png/background_img.png);
+    background-image: url(/assets/images/png/background_img.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -270,7 +270,7 @@
 }
 
 .footer_bg_img {
-    background-image: url(/assets/images/footer-bg-img.png);
+    background-image: url(/assets/images/footer-bg-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -367,7 +367,7 @@
 }
 
 .footer_bg_img {
-    background-image: url(/assets/images/footer-bg-img.png);
+    background-image: url(../images/webp/footer-bg-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }

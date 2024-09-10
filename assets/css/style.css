@@ -307,7 +307,7 @@ ul {
 }
 
 .Time_line_bg_images {
-    background-image: url(/assets/images/png/background_img.png);
+    background-image: url(/assets/images/png/background_img.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -496,7 +496,7 @@ ul {
 }
 
 .footer_bg_img {
-    background-image: url(/assets/images/webp/footer-bg-img.webp);
+    background-image: url(../images/webp/footer-bg-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -603,7 +603,7 @@ ul {
 }
 
 .footer_bg_img {
-    background-image: url(/assets/images/webp/footer-bg-img.webp);
+    background-image: url(../images/webp/footer-bg-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1324,6 +1324,6 @@ ul {
 
 @media (min-width:1300px) {
     .translate-x {
-        transform: translateX(10px);
+        transform: translateX(0);
     }
 }
