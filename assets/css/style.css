@@ -106,7 +106,7 @@ ul {
 }
 
 .scroll-up-img {
-    display: none;
+    display: none ;
 }
 
 .cross {
@@ -151,7 +151,6 @@ ul {
     padding-left: 27px;
     padding-right: 27px;
     padding-bottom: 31px;
-    max-width: 364px;
     min-height: 379px;
     width: 100%;
     border-radius: 8px;
@@ -1158,8 +1157,7 @@ ul {
 
     .header {
         padding-top: 19px;
-        padding-left: 150px !important;
-        padding-right: 150px;
+ 
         padding-bottom: 18px;
     }
 
@@ -1213,6 +1211,6 @@ ul {
 
 @media (min-width:1300px) {
     .translate-x {
-        transform: translateX(-10px);
+        transform: translateX(40px);
     }
 }
