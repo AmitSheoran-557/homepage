@@ -407,11 +407,11 @@ ul {
 
 .box {
     min-height: 207px;
+    >>>>>>>7bae8ee20c505e37b4729935d9f2ec2cc0a51e55
 }
 
 .box-btn {
-    width: 365px;
-    height: 52px;
+    padding: 15px 85px;
     margin-bottom: 40px;
     transition: all 300ms linear;
 }
@@ -754,7 +754,7 @@ ul {
         height: 472px;
     }
 
-  
+
     .bg-shadow {
         left: 120px;
         top: -70px;
@@ -918,10 +918,12 @@ ul {
         font-size: 26px;
         text-align: center !important;
     }
+
     .min-vh-80 {
         min-height: 93vh;
     }
-    .sec-1-heading{
+
+    .sec-1-heading {
         max-width: 277px;
     }
 
@@ -1019,6 +1021,10 @@ ul {
         --fs-lg: 25px;
     }
 
+    .search-img {
+        width: 100% !important;
+    }
+
     .sec_3_heading {
         font-size: 30px;
 
@@ -1068,6 +1074,18 @@ ul {
     .Time_line_Line {
         left: 19% !important;
     }
+
+    <<<<<<< HEAD .faq-heading {
+
+        padding-top: 75px !important;
+        padding-bottom: 29px !important;
+    }
+
+    .pb-sm-66 {
+        padding-bottom: 66px !important;
+    }
+
+    =======
 }
 
 @media (max-width:470px) {
@@ -1174,4 +1192,6 @@ ul {
     .translate-x {
         transform: translateX(-20px);
     }
+
+    >>>>>>>7bae8ee20c505e37b4729935d9f2ec2cc0a51e55
 }
