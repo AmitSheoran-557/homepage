@@ -60,6 +60,7 @@
 .sec-1-heading {
     color: #2A3739 !important;
     line-height: 135%;
+    max-width: 419px;
 }
 
 .hero-img {
@@ -1223,6 +1224,6 @@ ul {
 
 @media (min-width:1300px) {
     .translate-x {
-        transform: translateX(40px);
+        transform: translateX(10px);
     }
 }
