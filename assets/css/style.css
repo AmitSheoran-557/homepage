@@ -107,7 +107,7 @@ ul {
 }
 
 .scroll-up-img {
-    display: none ;
+    display: none;
 }
 
 .cross {
@@ -603,9 +603,13 @@ ul {
 }
 
 .footer_bg_img {
-    background-image: url(/assets/images/footer-bg-img.png);
+    background-image: url(/assets/images/webp/footer-bg-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.footer-logo-max-w {
+    max-width: 150px !important;
 }
 
 .rotated-anima {
@@ -663,13 +667,16 @@ ul {
     border-top: 2px solid #738184 !important;
     width: 100%;
 }
+
 .accordion-button:not(.collapsed)::after {
     width: 9px !important;
     height: 5px !important;
 }
+
 .accordion-button:focus {
     box-shadow: none !important;
 }
+
 @keyframes rotate {
     0% {
         transform: rotate3d(0, 0, 1, 0deg);
@@ -728,6 +735,7 @@ ul {
     .position_lg_unset {
         position: unset !important;
     }
+
     .container-1 {
         max-width: 1140px;
         width: 100%;
@@ -742,6 +750,7 @@ ul {
     .position_lg_unset {
         position: unset !important;
     }
+
     .container-1 {
         max-width: 1140px;
         width: 100%;
@@ -802,14 +811,15 @@ ul {
         padding-right: 30px;
         padding-bottom: 18px;
     }
-.Time_line_Line {
-    height: 736px;
-    width: 0px !important;
-    background-color: #B8D8D8;
-    left: 9%;
-    top: 4% !important;
 
-}
+    .Time_line_Line {
+        height: 736px;
+        width: 0px !important;
+        background-color: #B8D8D8;
+        left: 9%;
+        top: 4% !important;
+
+    }
 
     .row {
         overflow: hidden;
@@ -843,7 +853,7 @@ ul {
         --fs-lg: 36px;
     }
 
-    
+
 }
 
 @media (max-width:768px) {
@@ -892,6 +902,7 @@ ul {
         max-width: 808px;
         margin-top: 31px;
     }
+
     .sec-2-card {
         border: 1px solid #D4D7D7;
         padding-top: 34px;
@@ -902,9 +913,9 @@ ul {
         min-height: 379px;
         width: 100%;
         border-radius: 8px;
-    
+
     }
-    
+
 
     .header {
         padding-top: 19px;
@@ -1083,7 +1094,7 @@ ul {
         font-size: 14px;
     }
 
-  
+
 
     .heading {
         padding-top: 75px !important;
@@ -1093,122 +1104,122 @@ ul {
     .pb-sm-66 {
         padding-bottom: 66px !important;
     }
-                 
-        
-                 .sec5-pera {
-                     font-family: "Roboto Slab", serif;
-                     font-size: 14px;
-                     text-align: center !important;
-                     padding-bottom: 18px;
-                 }
-        
-                 .footer-logo-max-w {
-                     max-width: 100px !important;
-                 }
-        
-                 .footer-logo-text {
-                     width: 160px !important;
-                     height: 25px !important;
-                 }
-        
-                 .footer-btn {
-                     padding: 8px 20px;
-                     font-size: 8px !important;
-                 }
-        
-                 .pb-sm-40 {
-                     padding-bottom: 40px !important;
-                 }
-        
-                 .sec5-col-img-w {
-                     max-width: 355px !important;
-                 }
-        
-                 .sec_3_py-72 {
-                     padding-top: 0 !important;
-                     padding-bottom: 0 !important;
-                 }
-        
-                 .sec-2-card-img {
-                     max-width: 183px !important;
-                 }
-        
-                 .sec5-py {
-                     padding-top: 45px;
-                     padding-bottom: 38px;
-                 }
-        
-                 :root {
-                     --fs-sm: 12px;
-                     --fs-lg: 25px;
-                 }
-        
-                 .sec_3_py-72 {
-                     padding-top: 0 !important;
-                     padding-bottom: 0 !important;
-                 }
-        
-                 .pt-sm-66 {
-                     padding-top: 66px !important;
-                 }
-        
-        
-                 .faq-heading {
-        
-                     padding-top: 75px !important;
-                     padding-bottom: 29px !important;
-                 }
-        
-                 .m_sm_12 {
-                     margin: 12px;
-                 }
-        
-        
-        
-                 .pb-sm-66 {
-                     padding-bottom: 66px !important;
-                 }
-        
-                 
-                 .pt-sm-65 {
-                     padding-top: 65px !important;
-                 }
-        
-                 .sec_4_pera {
-                     font-size: 14px;
-                 }
-        
-                 .Time_line_Line {
-                     height: 637px;
-        
-                     left: 9% !important;
-        
-        
-                 }
-        
-                 .faq-heading {
-        
-                     padding-top: 75px !important;
-                     padding-bottom: 29px !important;
-                 }
-        
-                 .pb-sm-66 {
-                     padding-bottom: 66px !important;
-                 }
-        
-                 .accordion-btn {
-                     font-size: 16px;
-                 }
-        
-                 .accordion-text {
-                     font-size: 16px;
-                 }
-        
-                 .sec7-timeline-img {
-                     width: 76.87px !important;
-                     height: 83.98px !important;
-                 }
-                 
+
+
+    .sec5-pera {
+        font-family: "Roboto Slab", serif;
+        font-size: 14px;
+        text-align: center !important;
+        padding-bottom: 18px;
+    }
+
+    .footer-logo-max-w {
+        max-width: 100px !important;
+    }
+
+    .footer-logo-text {
+        width: 160px !important;
+        height: 25px !important;
+    }
+
+    .footer-btn {
+        padding: 8px 20px;
+        font-size: 8px !important;
+    }
+
+    .pb-sm-40 {
+        padding-bottom: 40px !important;
+    }
+
+    .sec5-col-img-w {
+        max-width: 355px !important;
+    }
+
+    .sec_3_py-72 {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .sec-2-card-img {
+        max-width: 183px !important;
+    }
+
+    .sec5-py {
+        padding-top: 45px;
+        padding-bottom: 38px;
+    }
+
+    :root {
+        --fs-sm: 12px;
+        --fs-lg: 25px;
+    }
+
+    .sec_3_py-72 {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .pt-sm-66 {
+        padding-top: 66px !important;
+    }
+
+
+    .faq-heading {
+
+        padding-top: 75px !important;
+        padding-bottom: 29px !important;
+    }
+
+    .m_sm_12 {
+        margin: 12px;
+    }
+
+
+
+    .pb-sm-66 {
+        padding-bottom: 66px !important;
+    }
+
+
+    .pt-sm-65 {
+        padding-top: 65px !important;
+    }
+
+    .sec_4_pera {
+        font-size: 14px;
+    }
+
+    .Time_line_Line {
+        height: 637px;
+
+        left: 9% !important;
+
+
+    }
+
+    .faq-heading {
+
+        padding-top: 75px !important;
+        padding-bottom: 29px !important;
+    }
+
+    .pb-sm-66 {
+        padding-bottom: 66px !important;
+    }
+
+    .accordion-btn {
+        font-size: 16px;
+    }
+
+    .accordion-text {
+        font-size: 16px;
+    }
+
+    .sec7-timeline-img {
+        width: 76.87px !important;
+        height: 83.98px !important;
+    }
+
 
 }
 
@@ -1259,7 +1270,7 @@ ul {
 
     .header {
         padding-top: 19px;
- 
+
         padding-bottom: 18px;
     }
 
