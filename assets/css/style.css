@@ -663,7 +663,13 @@ ul {
     border-top: 2px solid #738184 !important;
     width: 100%;
 }
-
+.accordion-button:not(.collapsed)::after {
+    width: 9px !important;
+    height: 5px !important;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+}
 @keyframes rotate {
     0% {
         transform: rotate3d(0, 0, 1, 0deg);
@@ -693,37 +699,7 @@ ul {
     font-size: var(--fs-lg);
 }
 
-/* ======================================================== */
-:root {
-    --fc-lite-green: #B8D8D8;
-    --fc-green: #7A9E9F;
-    --fc-dark-green: #4F6367;
 
-}
-
-.fc-lite-green {
-    color: var(--fc-lite-green);
-}
-
-.fc-green {
-    color: var(--fc-green);
-}
-
-.fc-dark-green {
-    color: var(--fc-dark-green);
-}
-
-.bg-lite-green {
-    background-color: var(--fc-lite-green);
-}
-
-.bg-green {
-    background-color: var(--fc-green);
-}
-
-.bg-dark-green {
-    background-color: var(--fc-dark-green);
-}
 
 @media (max-width:1200px) {
     .left_xl_-49 {
@@ -826,13 +802,14 @@ ul {
         padding-right: 30px;
         padding-bottom: 18px;
     }
+.Time_line_Line {
+    height: 736px;
+    width: 0px !important;
+    background-color: #B8D8D8;
+    left: 9%;
+    top: 4% !important;
 
-    .Time_line_Line {
-        height: 642px;
-        width: 4px !important;
-        background-color: #B8D8D8;
-        left: 9%;
-    }
+}
 
     .row {
         overflow: hidden;
@@ -866,9 +843,7 @@ ul {
         --fs-lg: 36px;
     }
 
-    .box-btn {
-        max-width: 270px;
-    }
+    
 }
 
 @media (max-width:768px) {
@@ -1108,9 +1083,7 @@ ul {
         font-size: 14px;
     }
 
-    .Time_line_Line {
-        left: 19% !important;
-    }
+  
 
     .heading {
         padding-top: 75px !important;
@@ -1120,6 +1093,122 @@ ul {
     .pb-sm-66 {
         padding-bottom: 66px !important;
     }
+                 
+        
+                 .sec5-pera {
+                     font-family: "Roboto Slab", serif;
+                     font-size: 14px;
+                     text-align: center !important;
+                     padding-bottom: 18px;
+                 }
+        
+                 .footer-logo-max-w {
+                     max-width: 100px !important;
+                 }
+        
+                 .footer-logo-text {
+                     width: 160px !important;
+                     height: 25px !important;
+                 }
+        
+                 .footer-btn {
+                     padding: 8px 20px;
+                     font-size: 8px !important;
+                 }
+        
+                 .pb-sm-40 {
+                     padding-bottom: 40px !important;
+                 }
+        
+                 .sec5-col-img-w {
+                     max-width: 355px !important;
+                 }
+        
+                 .sec_3_py-72 {
+                     padding-top: 0 !important;
+                     padding-bottom: 0 !important;
+                 }
+        
+                 .sec-2-card-img {
+                     max-width: 183px !important;
+                 }
+        
+                 .sec5-py {
+                     padding-top: 45px;
+                     padding-bottom: 38px;
+                 }
+        
+                 :root {
+                     --fs-sm: 12px;
+                     --fs-lg: 25px;
+                 }
+        
+                 .sec_3_py-72 {
+                     padding-top: 0 !important;
+                     padding-bottom: 0 !important;
+                 }
+        
+                 .pt-sm-66 {
+                     padding-top: 66px !important;
+                 }
+        
+        
+                 .faq-heading {
+        
+                     padding-top: 75px !important;
+                     padding-bottom: 29px !important;
+                 }
+        
+                 .m_sm_12 {
+                     margin: 12px;
+                 }
+        
+        
+        
+                 .pb-sm-66 {
+                     padding-bottom: 66px !important;
+                 }
+        
+                 
+                 .pt-sm-65 {
+                     padding-top: 65px !important;
+                 }
+        
+                 .sec_4_pera {
+                     font-size: 14px;
+                 }
+        
+                 .Time_line_Line {
+                     height: 637px;
+        
+                     left: 9% !important;
+        
+        
+                 }
+        
+                 .faq-heading {
+        
+                     padding-top: 75px !important;
+                     padding-bottom: 29px !important;
+                 }
+        
+                 .pb-sm-66 {
+                     padding-bottom: 66px !important;
+                 }
+        
+                 .accordion-btn {
+                     font-size: 16px;
+                 }
+        
+                 .accordion-text {
+                     font-size: 16px;
+                 }
+        
+                 .sec7-timeline-img {
+                     width: 76.87px !important;
+                     height: 83.98px !important;
+                 }
+                 
 
 }
 
