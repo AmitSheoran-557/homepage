@@ -62,7 +62,7 @@
 @media (max-width:992px) {
     :root {
         --fs-sm: 10px;
-        --fs-md: 12px;
+        --fs-md: 16px;
         --fs-xlg: 18px;
         --fs-lg: 20px;
         --fs-xl: 23px;
@@ -74,7 +74,7 @@
 @media (max-width:768px) {
     :root {
         --fs-sm: 10px;
-        --fs-md: 11px;
+        --fs-md: 14px;
         --fs-xlg: 16px;
         --fs-lg: 18px;
         --fs-xl: 20px;
