@@ -667,6 +667,9 @@ ul {
     width: 9px !important;
     height: 5px !important;
 }
+.accordion-button:focus {
+    box-shadow: none !important;
+}
 @keyframes rotate {
     0% {
         transform: rotate3d(0, 0, 1, 0deg);
