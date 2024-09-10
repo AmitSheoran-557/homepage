@@ -916,7 +916,19 @@ ul {
         max-width: 808px;
         margin-top: 31px;
     }
-
+    .sec-2-card {
+        border: 1px solid #D4D7D7;
+        padding-top: 34px;
+        padding-left: 27px;
+        padding-right: 27px;
+        padding-bottom: 31px;
+        max-width: 364px;
+        min-height: 379px;
+        width: 100%;
+        border-radius: 8px;
+    
+    }
+    
 
     .header {
         padding-top: 19px;
