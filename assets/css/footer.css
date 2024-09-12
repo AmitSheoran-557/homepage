@@ -334,7 +334,7 @@
 }
 
 .footer_bg_img {
-    background-image: url(/assets/images/webp/footer-bg-img.webp);
+    background-image: url(/assets/images/footer-bg-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -368,7 +368,7 @@
 }
 
 .footer_bg_img {
-    background-image: url(/assets/images/webp/footer-bg-img.webp);
+    background-image: url(../images/webp/footer-bg-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
