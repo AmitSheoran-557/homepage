@@ -2,15 +2,15 @@
     --light-green: #7A9E9F;
     --dark-green: #4F6367;
     --fc-lite-green: #B8D8D8;
-        --fc-green: #7A9E9F;
-        --fc-dark-green: #4F6367;
-        --fs-sm: 14px;
-            --fs-md: 16px;
-            --fs-smd: 16px;
-            --fs-lg: 20px;
-            --fs-xl: 25px;
-            --fs-2xl: 45px;
-            --fs-3xl: 46px;
+    --fc-green: #7A9E9F;
+    --fc-dark-green: #4F6367;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-smd: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 25px;
+    --fs-2xl: 45px;
+    --fs-3xl: 46px;
 }
 
 .fc-lite-green {
