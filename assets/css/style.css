@@ -746,8 +746,8 @@
     }
 
     .sec7-timeline-img {
-        width: 80% !important;
-        height: 80% !important;
+        width: 136px !important;
+        height: 105px !important;
     }
 
     .mt-40 {
@@ -856,8 +856,8 @@
     background-position: center;
 }
 
-.max-w-744 {
-    max-width: 744px !important;
+.max-w-877 {
+    max-width: 877px !important;
 }
 
 .top_-60 {
@@ -1160,6 +1160,13 @@
 .accordion-button:focus {
     box-shadow: none !important;
 }
+.sec8_side-img{
+    width: 53px;
+}
+.sec6_img{
+    width: 136px;
+    height: 105px;
+}
 .top_-10{
     top: -10%;
 }
@@ -1171,24 +1178,6 @@
 }
 .left_-23{
     left: -23%;
-}
-.leading-117{
-    line-height: 117%;
-}
-.leading-138{
-    line-height: 138%;
-}
-.max-w-204{
-    max-width: 204px;
-}
-.max-w-149{
-    max-width: 149px;
-}
-.max-w-161{
-    max-width: 161px;
-}
-.max-w-177{
-    max-width: 177px;
 }
 @keyframes rotate {
     0% {
@@ -1271,7 +1260,7 @@
     }
 
     .Time_line_Line {
-        height: 743px;
+        height: 877px;
         width: 9px !important;
         background-color: #B8D8D8;
         left: 9%;
