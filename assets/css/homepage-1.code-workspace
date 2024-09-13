@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "homepage-1",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "homepage-1"
+	}
+}
